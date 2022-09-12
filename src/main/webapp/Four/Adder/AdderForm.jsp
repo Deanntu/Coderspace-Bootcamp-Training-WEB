@@ -15,10 +15,10 @@ if(request.getParameter("add") != null){
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Adder</title>
 </head>
 <body>
-Toplam: <%=sum %><br/>
+Sum: <%=sum %><br/>
 <form action="AdderForm.jsp" method = "POST">
 Left: <input type="text" name="left" value=<%=left%>><br/><br/>
 Right: <input type="text" name="right" value=<%=right%>><br/><br/>
