@@ -47,7 +47,7 @@ if(request.getParameter("login") != null){
 </form>
 <button onclick="window.location.href='Login.jsp';">
       Login
-    </button>
+</button>
 <%=message%><br /> 
 </body>
 </html>
